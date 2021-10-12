@@ -9,24 +9,78 @@
 
 <div id="pages">
     <nav class="panel">
-        <span class="panel_main">Главная</span>  
-        <span class="panel_courses">Курсы</span>
-        <span class="panel_timetable">Расписание</span>
-        <span class="panel_teachers">Преподаватели</span>
-        <span class="panel_mailing">Рассылка</span>
-        <span class="panel_contacts">Контакты</span>
-        <button class="panel_cabinet">Зайти в кабинет</span>
+        <a class="logo">&nbsp;</a>
+            <span class="menu">
+                <span class="panel_main">Главная</span>  
+                <span class="panel_courses">Курсы</span>
+                <span class="panel_timetable">Расписание</span>
+                <span class="panel_teachers">Преподаватели</span>
+                <span class="panel_mailing">Рассылка</span>
+                <span class="panel_contacts">Контакты</span>
+                <button class="panel_cabinet">Зайти в кабинет</span>
+            </span>
     </nav>
 
 <div class="main">
-    <h1>Первый курс<br> по компьютерной сборке </br></h1>
-        
-
+    <h1 class="text">Первый курс<br> по компьютерной сборке </br></h1>
+        <div class="square_main">
+            <span class='square'>
+                <span class='number' id="days"></span>
+                <span class='word'>Дней</span>
+            </span>
+            <span class='square'>
+                <span class='number' id="hours"></span>
+                <span class='word'>Часов</span>
+            </span>
+                <span class='square'>
+                <span class='number' id="minutes"></span>
+                <span class='word'>Минут</span>
+            </span>
+            <span class='square'>
+                <span class='number' id="seconds"></span>
+                <span class='word'>Секунд</span>
+            </span>
+        </div>
+</div>
+    <div class="border">
+        <button class="course">Заказать курс</button>
+        <span class="border_text">
+            <span>Учеников всего:</span>
+            <span class="number_p">200</span><br><br>
+            <span>Успешно закончили курс:</span>
+            <span class="number_p2">190</span>
+        </span>
+        <span class="money">
+            <span class="money_text">Заработано учениками:</span>
+            <span class="money_live">1 000 000₽</span><br></br>
+            <span><hr class="money_png"></hr></span>
+            <span class="money_0">0</span>
+            <span class="money_max">1 000 000₽</span>
+        </span>
+        <span></span>
+        <span></span>
+    </div>
 
 </div>
-
-</div>
+<script>
+    let map = [{
+        id: 'days',                
+        max: 30,
+    }, {
+        id: 'hours',
+        max: 24
+    }, {
+        id: 'minutes',
+        max: 60
+    }, {
+        id: 'seconds',
+        max: 60
+    }];
+    map.forEach(({id, max})  => {
+        let element = document.getElementById(id);
+        element.textContent = Math.floor(Math.random() * max).toString().padStart(2, '0');
+    });
+</script>
 </body>
-
 
 </html>

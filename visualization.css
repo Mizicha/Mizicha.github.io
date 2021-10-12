@@ -8,14 +8,21 @@ body{
 #pages{
     width: 1920px;
 }
-nav{
-    padding-left: 642px;
+nav .menu{
+    padding-left: 522px;
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.panel span{
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding: 20px;
+    margin: 40px 0px 0px 80px;
+}
+.menu span{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 48px;
     margin-right: 56px;
     
     font-family: Roboto;
@@ -34,6 +41,7 @@ nav{
 
     float: right;
     margin-right: 110px;
+    margin-top: 38px;
 
     display: flex;
     flex-direction: row;
@@ -57,8 +65,8 @@ nav{
 }
 
 
-.main h1{
-    margin-top: 174px;
+.main .text{
+    margin-top: 198px;
     margin-left: 312px;
     margin-right: 688px;
 
@@ -70,7 +78,116 @@ nav{
 
     color: white;
 }
-
 .main{
-    margin-bottom: 380px;
+    margin-bottom: 218px;
+}
+
+.square {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #121212;
+    margin: 10px;
+    Padding: 39px 31.5px 42px;
+    text-align: center;
+    color: white;
+}
+
+.square .number {
+    padding: 4.2px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 75%;
+    text-align: center;
+}
+
+.square .word {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 4em;
+    color: gray;
+    text-align: center;
+    margin: 0px -5px;
+}
+.square_main{
+    padding: 0px 0px 0px 302px;
+}
+.border{
+    background-color: #121212;
+    padding: 0px 0px 0px 0px;
+}
+.border_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: gray;
+    display: inline-block;
+    padding: 36px 0px 36px 82px;
+    line-height: 25px;
+}
+.number_p{
+   color: white;
+   font-size: 20px;
+   padding-left: 88px;
+}
+.number_p2{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+ }
+.money{
+    display: inline-block;
+    padding: 23px 0px 36px 81px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 81%;
+
+    color:gray;
+}
+.money_text{
+    padding: 0px 0px 0px 0px;
+}
+.money_live{
+    padding: 0px 0px 0px 30px;
+    color: white;
+}
+.money_png{
+    width: 714px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    padding: 0px 0px 6px 0px;
+}
+.money_0{
+    display: inline-block;
+    padding-right: 623px;
+    padding-top: 5px;
+}
+
+.course{
+    float: left;
+    margin-top: 43px;
+    margin-left: 312px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+
+    padding: 12px 42px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: white;
+}
+.course:hover{
+    cursor: pointer;
 }
