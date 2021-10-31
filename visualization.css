@@ -1,30 +1,33 @@
-body{
+body {
     background-color: black;
     Padding: 0;
     Margin: 0;
     background-image: url(main-screen__bgc.png);
     background-repeat: no-repeat;
 }
-#pages{
+
+#pages {
     width: 1920px;
 }
-nav .menu{
+
+nav .menu {
     padding-left: 522px;
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.logo{
+
+.logo {
     background-image: url(logo.png);
     background-repeat: no-repeat;
     float: left;
     padding: 20px;
     margin: 40px 0px 0px 80px;
 }
-.menu span{
+
+.menu span {
     display: inline-block;
     margin-top: 48px;
     margin-right: 56px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -33,22 +36,20 @@ nav .menu{
     color: white;
     text-align: center;
 }
-.panel span:hover{
+
+.panel span:hover {
     cursor: pointer;
 }
 
-.panel_cabinet{
-
+.panel_cabinet {
     float: right;
     margin-right: 110px;
     margin-top: 38px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -56,29 +57,27 @@ nav .menu{
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
-
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     border-radius: 50px;
 }
-.panel_cabinet:hover{
+
+.panel_cabinet:hover {
     cursor: pointer;
 }
 
-
-.main .text{
+.main .text {
     margin-top: 198px;
     margin-left: 312px;
     margin-right: 688px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
     line-height: 90px;
-
     color: white;
 }
-.main{
+
+.main {
     margin-bottom: 218px;
 }
 
@@ -113,81 +112,92 @@ nav .menu{
     text-align: center;
     margin: 0px -5px;
 }
-.square_main{
+
+.square_main {
     padding: 0px 0px 0px 302px;
 }
-.border{
+
+.border {
     background-color: #121212;
     padding: 0px 0px 0px 0px;
 }
-.border_text{
+
+.border_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 150%;
-
     color: gray;
     display: inline-block;
     padding: 36px 0px 36px 82px;
     line-height: 25px;
 }
-.number_p{
-   color: white;
-   font-size: 20px;
-   padding-left: 88px;
+
+.number_p {
+    color: white;
+    font-size: 20px;
+    padding-left: 88px;
 }
-.number_p2{
+
+.number_p2 {
     color: white;
     font-size: 20px;
     padding-left: 20px;
- }
-.money{
-    display: inline-block;
-    padding: 23px 0px 36px 81px;
+}
 
+.money {
+    display: inline-block;
+    padding: 23px 0px 36px 76px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 81%;
-
-    color:gray;
+    color: gray;
 }
-.money_text{
+
+.money_text {
     padding: 0px 0px 0px 0px;
 }
-.money_live{
+
+.money_live {
     padding: 0px 0px 0px 30px;
     color: white;
 }
-.money_png{
+
+.money_png {
     width: 714px;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     padding: 0px 0px 6px 0px;
+    border: none;
 }
-.money_0{
+
+.money_0 {
     display: inline-block;
     padding-right: 623px;
     padding-top: 5px;
 }
 
-.course{
+.course {
     float: left;
-    margin-top: 43px;
-    margin-left: 312px;
+    margin-top: 44px;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     border-radius: 50px;
-
-    padding: 12px 42px;
+    padding: 11px 32px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 150%;
-
     color: white;
 }
-.course:hover{
+
+.course:hover {
     cursor: pointer;
+}
+
+.container {
+    width: 1296px;
+    margin: auto;
 }
